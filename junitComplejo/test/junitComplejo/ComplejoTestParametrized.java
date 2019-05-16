@@ -48,8 +48,8 @@ public class ComplejoTestParametrized {
         // 2. Act
         Complejo resultado = c1.sumar(c2);
         // 3. Assert
-        assertTrue(resultado.getParteReal()==exp_pr);
-        assertTrue(resultado.getParteImaginaria()==exp_pi);
+        assertEquals(resultado.getParteReal(),exp_pr,0.0000001);
+        assertEquals(resultado.getParteImaginaria(),exp_pi,0.0000001);
   }     
     
 }

@@ -15,7 +15,6 @@ public class ComplejoTest2 {
         c2 = new Complejo(1, -1);
 
 	}
-
 	@Test
 	public void testRestar() {
 		

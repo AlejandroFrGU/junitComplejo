@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class ComplejoTest2 {
+public class Complejo2Test {
 	Complejo c1, c2;
 	
 	@Before
